@@ -1,4 +1,4 @@
-# Data-Science-Assignment
+# FullStack-Dev-Assignment
 
 # Test Details:
   This test was created by Aidetic Software Pvt. Ltd. for Fullstack Dev Hiring. Anyone can take this test.
@@ -30,14 +30,19 @@
 
   The requirement is to develop a backend server for data labelling which will allow you to do following things(Provide 6 API's as mentioned below):
 
-    1. Upload and save images along with meta information.
-    2. Edit Meta information saved for images.
+    1. Upload and save images along with meta information(Meta information can be any random dictioary).
+    2. Rewrite Meta information saved for images.
     3. Delete saved images along with meta data.
-    4. Save long texts along with meta information.
-    5. Edit meta information for saved texts.
+    4. Save long texts along with meta information(Meta informatin can be any random dictioary).
+    5. Rewrite meta information for saved texts.
     6. List and serve all the images.
     
-   
+   No requirement of HTML templates. Just API's needs to be created.
+
+   Configure sqlite3 databse for the application. Two tables will be required:
+       1. For image information.
+       2. For text information.
+       
 # Deliverables
   
   1. The final deliverable is a GitHub repository containing all files for running the application. 
@@ -48,6 +53,11 @@
       
       ○ A video showing all the API's working.
       
+      ○ sqlite3 database with some data.
+
+      ○ A postman collection with all the API's and request body.
+      
+     
       
   2. Coding Instructions and General Guidelines:
 
